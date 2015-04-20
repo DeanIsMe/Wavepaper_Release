@@ -1,6 +1,10 @@
 # Wavepaper
 Wavepaper is a highly customisable image generator that simulates wave interference patterns to produce images for wallpapers, or any other purpose. You can share configuration files, edit others' designs and generate images in ANY resolution!
 
+Installation
+
+Run the installer. Note that this program requires the MATLAB runtime v8.5 (R2015a). If you don't have this MATLAB runtime, the installer will download and install it.
+
 How do I make pretty pictures?
 
 Click ALL THE THINGS!
