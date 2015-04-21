@@ -54,6 +54,9 @@ Bugs and such
 
 This program is not yet a polished solution, so there are sure to be some bugs lurking around. Let me know if you find any, through https://github.com/DeanIsMe/Wavepaper. There is a lot of room for improvements and extra features, so please tell me what you would like to see!
 
+Known bugs: 
+If you have your display settings set to anything other than 100%, then this program will not be shown correctly.
+
 License
 
 This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/
