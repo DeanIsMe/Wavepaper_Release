@@ -65,6 +65,10 @@ If you have your display settings set to anything other than 100%, then this pro
 ![RainDrops](https://github.com/DeanIsMe/Wavepaper/blob/master/thumbnails/RainDrops.jpg "RainDrops")
 ![Star](https://github.com/DeanIsMe/Wavepaper/blob/master/thumbnails/Star.jpg "Star")
 
+### Source Code
+The source code is not currently released - but I'm not closed off to the idea. This project is hosted on GitHub for ease of distribution.
+
 ### License
 
 This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/
+
