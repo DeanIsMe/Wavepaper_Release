@@ -1,9 +1,25 @@
 # Wavepaper
 Wavepaper is a highly customisable image generator that simulates wave interference patterns to produce abstract art for wallpapers, or any other purpose. You can share configuration files, edit others' designs and generate images in ANY resolution!
 
+### UI
+(yes, it's clunky) 
+![Wavepaper GUI](/thumbnails/Wavepaper_GUI.jpg)  
+
+### Example wallpapers
+<div>
+<img src="/thumbnails/Contour.jpg" alt="Contour" width="49%"/>
+<img src="/thumbnails/Insignia.jpg" alt="Insignia" width="49%"/>
+</div>
+<div>
+<img src="/thumbnails/Wave Fronts.jpg" alt="Wave Fronts" width="49%"/>
+<img src="/thumbnails/Star.jpg" alt="Star" width="49%"/>
+</div>
+
 ### Installation
 
-Run the installer. Note that this program requires the MATLAB runtime v8.5 (R2015a). If you don't have this MATLAB runtime, the installer will download and install it.
+Run the installer. Note that this program requires the MATLAB runtime v8.5 (R2015a). If you don't have this MATLAB runtime, the installer will download and install it.  
+
+Note that a more recent version of Wavepaper exists, written in C++ on Qt. It can be run without installation, but far less mature than this MATLAB version.  See it [here](https://github.com/DeanIsMe/Wavepaper_Qt).
 
 ### How do I make pretty pictures?
 
@@ -13,14 +29,14 @@ Load example configurations and fiddle with them.
 
 ### The terminology
 
-Waves are emitted from Emitters.
-One or more Emitters make a Set.
-One or more Sets make a Phasor Field.
-One or more Phasor Fields produce the Output.
+Waves are emitted from **Emitters**.  
+One or more **Emitters** make a **Set**.  
+One or more **Sets** make a **Phasor Field**.  
+One or more **Phasor Fields** produce the **Output**.  
 
-Apricot panels modify the current Set.
-Blue panels modify the current Phasor Field.
-Green panels modify the Output.
+Apricot panels modify the current Set.  
+Blue panels modify the current Phasor Field.  
+Green panels modify the Output.  
  
 To have multiple sets, click the 'Add Set' button, which will save the emitter locations of emitters you're currently modifying, and allow you to add another. 
 The same system works for phasor fields. However, adding multiple phasor fields is for more advanced functions.
@@ -52,18 +68,10 @@ The simulation functionality was originally written for my undergraduate thesis 
 
 ### Bugs and such
 
-This program is not yet a polished solution, so there are sure to be some bugs lurking around. Let me know if you find any, through https://github.com/DeanIsMe/Wavepaper. There is a lot of room for improvements and extra features, so please tell me what you would like to see!
+This program is not yet a polished solution, so there are sure to be some bugs lurking around. Let me know if you find any, through https://github.com/DeanIsMe/Wavepaper_Release. There is a lot of room for improvements and extra features, so please tell me what you would like to see!
 
 Known bugs: 
 If you have your display settings set to anything other than 100%, then this program will not be shown correctly.
-
-### Example Thumbnails
-
-![Wave Fronts](https://github.com/DeanIsMe/Wavepaper/blob/master/thumbnails/Wave%20Fronts.jpg "Wave Fronts")
-![Contour](https://github.com/DeanIsMe/Wavepaper/blob/master/thumbnails/Contour.jpg "Contour")
-![Insignia](https://github.com/DeanIsMe/Wavepaper/blob/master/thumbnails/Insignia.jpg "Insignia")
-![RainDrops](https://github.com/DeanIsMe/Wavepaper/blob/master/thumbnails/RainDrops.jpg "RainDrops")
-![Star](https://github.com/DeanIsMe/Wavepaper/blob/master/thumbnails/Star.jpg "Star")
 
 ### Source Code
 The source code is not currently released - but I'm not closed off to the idea. This project is hosted on GitHub for ease of distribution.
